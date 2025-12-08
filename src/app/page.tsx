@@ -53,7 +53,7 @@ function App() {
 
   const [showPromo, setShowPromo] = useState(false);      
   const [minimized, setMinimized] = useState(false);      
-  const [cartItems, setCartItems] = useState<CartItem[]>([]); 
+  
 
   useEffect(() => {
   
