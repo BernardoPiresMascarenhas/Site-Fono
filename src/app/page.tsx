@@ -122,7 +122,7 @@ function App() {
       <Header />
       <Hero />
 
-      <Services cartItems={cartItems} setCartItems={setCartItems} />
+      <Services />
 
       <AboutUs />
       <InstagramFeed />

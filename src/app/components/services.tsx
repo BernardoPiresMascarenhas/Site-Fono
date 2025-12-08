@@ -17,11 +17,9 @@ interface CartItem {
 }
 
 interface ServicesProps {
-    cartItems: CartItem[];
-    setCartItems: React.Dispatch<React.SetStateAction<CartItem[]>>;
 }
 
-const Services: React.FC<ServicesProps> = ({ cartItems, setCartItems }) => {
+const Services: React.FC<ServicesProps> = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalContent, setModalContent] = useState<{
     title: string;
