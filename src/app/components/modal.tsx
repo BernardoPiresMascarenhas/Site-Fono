@@ -11,8 +11,6 @@ interface ModalProps {
   closeModal: () => void;
   // Removi todas as propriedades de carrinho e catálogo que não serão usadas
   directToCatalog?: boolean; 
-  cartItems?: any[];
-  setCartItems?: any;
 }
 
 // --- VARIANTES DE ANIMAÇÃO ---

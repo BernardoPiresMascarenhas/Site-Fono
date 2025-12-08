@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from 'react';
-import { InstagramLogo, TiktokLogo, ThreadsLogo, List, X } from "@phosphor-icons/react"; 
+import { InstagramLogo, TiktokLogo, List, X } from "@phosphor-icons/react"; 
 import Image from "next/image";
 
 const Header = () => {

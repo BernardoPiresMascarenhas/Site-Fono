@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { MessageCircle, Baby, Smile, Brain } from "lucide-react"; // Novos ícones importados
+import { MessageCircle, Baby, Smile} from "lucide-react"; // Novos ícones importados
 import Modal from "./modal";
 import ServiceCard from "./ServiceCard";
 
@@ -89,8 +89,6 @@ const Services: React.FC<ServicesProps> = ({ cartItems, setCartItems }) => {
           img={modalContent.img}
           closeModal={closeModal}
           directToCatalog={modalContent.directToCatalog}
-          cartItems={cartItems}
-          setCartItems={setCartItems}
         />
       )}
     </div>
