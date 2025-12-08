@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Aumenta o espaçamento dos pontinhos abaixo da imagem */
+.swiper-pagination {
+  bottom: -20px !important;
+}
+
+/* Ajusta o espaçamento dos pontinhos de paginação */
+.swiper-pagination {
+  bottom: -20px !important;
+}
+
+/* Centraliza o botão no meio verticalmente */
+.swiper-button-next,
+.swiper-button-prev {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* === ESTILO DOS BOTÕES DO CARROSSEL DA GALERIA === */
+.gallery-swiper-button-next,
+.gallery-swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  /* Ajuste para centralizar verticalmente no meio da imagem */
+  transform: translateY(-calc(50% + 20px)); /* O +20px é para subir um pouco, ajuste se necessário */
+  z-index: 20;
+  cursor: pointer;
+  width: 50px;
+  height: 55px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 50%;
+  color: white; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+/* Efeito de hover */
+.gallery-swiper-button-prev:hover,
+.gallery-swiper-button-next:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* Posicionamento dos botões da GALERIA */
+.gallery-swiper-button-prev {
+  left: -0.7rem; /* Distância da esquerda */
+}
+.gallery-swiper-button-next {
+  right: -0.7rem; /* Distância da direita */
+}
+
+/* Ajuste para a paginação (bolinhas) se necessário */
+.custom-pagination .swiper-pagination-bullet {
+  background: #a855f7; /* Cor roxa para combinar */
+  opacity: 0.5;
+}
+
+.custom-pagination .swiper-pagination-bullet-active {
+  opacity: 1;
+}
