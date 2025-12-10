@@ -219,8 +219,8 @@ function App() {
               <ul className="space-y-2 text-gray-700 ">
                 <li><p>R. Pouso Alegre, 657 - Horto, Belo Horizonte - MG, 31110-010</p></li>
                 {/* Atualize o email abaixo quando tiver o definitivo */}
-                <li><a href="mailto:contato@fonoanamascarenhas.com.br" className="hover:text-[#fcf8f9] transition-colors">contato@fonoanamascarenhas.com.br</a></li>
-                <li><a href="tel:+553195306014" className="hover:text-[#fcf8f9] transition-colors">(31) 9530-6014</a></li>
+                <li><a href="mailto:fonoanamascarenhas@hotmail.com" className="hover:text-[#fcf8f9] transition-colors">fonoanamascarenhas@hotmail.com</a></li>
+                <li><a href="tel:+5531983413645" className="hover:text-[#fcf8f9] transition-colors">(31) 98341-3645</a></li>
               </ul>
               
               <div className="flex justify-center md:justify-start space-x-4 mt-6">

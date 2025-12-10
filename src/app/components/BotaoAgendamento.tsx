@@ -3,10 +3,19 @@ import { motion } from "framer-motion"
 
 const BotaoAgendamento = () => {
   const scrollToSection = (e: React.MouseEvent, sectionId: string) => {
-    e.preventDefault()
-    const section = document.getElementById(sectionId)
-    if (section) section.scrollIntoView({ behavior: "smooth" })
-  }
+    e.preventDefault();
+    const section = document.getElementById(sectionId);
+    if (section) {
+      const headerOffset = 112; 
+      const elementPosition = section.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth"
+      });
+    }
+  };
 
   return (
     <motion.a
@@ -18,7 +27,7 @@ const BotaoAgendamento = () => {
     >
       Agende uma Consulta
     </motion.a>
-  )
-}
+  );
+};
 
-export default BotaoAgendamento
+export default BotaoAgendamento;
