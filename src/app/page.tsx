@@ -9,6 +9,7 @@ import AboutUs from "./components/about";
 import Gallery from "./components/gallery";
 import InstagramFeed from "./components/SocialFeed";
 import FAQ from "./components/FAQ";
+import Testimonials from "./components/Testimonials";
 import Image from 'next/image';
 
 import FormularioContato from "@/app/components/FormularioContato";
@@ -125,6 +126,7 @@ function App() {
       <Services />
 
       <AboutUs />
+      <Testimonials />
       <InstagramFeed />
       <Gallery />
       <FAQ />
