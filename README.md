@@ -92,6 +92,8 @@ src/
 ├── next.config.mjs       # Configurações do Next.js
 └── tailwind.config.ts    # Configurações de Estilo
 
+```
+
 ## 🤝 Autor
 
 **Bernardo Pires Mascarenhas**
@@ -99,4 +101,4 @@ src/
 * Desenvolvedor Full Stack
 * [LinkedIn](https://www.linkedin.com/in/bernardo-pires-mascarenhas-3585972bb/)
 * [GitHub](https://github.com/BernardoPiresMascarenhas)
-
+  
