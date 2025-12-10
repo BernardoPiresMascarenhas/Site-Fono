@@ -13,24 +13,20 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  // Título que aparece na aba do navegador e no Google
-  title: "Ana Luiza Mascarenhas | Fonoaudióloga em BH",
-  
-  // Descrição que aparece embaixo do título no Google
-  description: "Fonoaudiologia humanizada em Belo Horizonte. Especialista em Intervenção Precoce, Fala, Linguagem e Motricidade Orofacial.",
+  metadataBase: new URL("https://site-fono-rosy.vercel.app"),
 
-  // Palavras-chave para ajudar a achar o site
+  title: "Ana Luiza Mascarenhas | Fonoaudióloga em BH",
+  description: "Fonoaudiologia humanizada em Belo Horizonte. Especialista em Intervenção Precoce, Fala, Linguagem e Motricidade Orofacial.",
   keywords: ["fonoaudiologia", "belo horizonte", "fono infantil", "intervenção precoce", "atraso na fala", "ana luiza mascarenhas"],
 
- 
   openGraph: {
     title: "Ana Luiza Mascarenhas | Fonoaudióloga",
     description: "Cuidando da comunicação e desenvolvimento com amor e excelência. Clique para conhecer.",
-    url: "https://site-fono-rosy.vercel.app/", 
+    url: "/", 
     siteName: "Ana Luiza Fonoaudiologia",
     images: [
       {
-        url: "/sobrenos.png", 
+        url: "/sobrenos.png",
         width: 800,
         height: 600,
         alt: "Foto da Fonoaudióloga Ana Luiza",
