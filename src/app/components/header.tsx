@@ -52,6 +52,7 @@ const Header = () => {
                         <a href="#services" onClick={(e) => scrollToSection(e, "services")} className="text-gray-700 hover:text-[#9eb8ba]">Atuação</a>
                         <a href="#about" onClick={(e) => scrollToSection(e, "about")} className="text-gray-700 hover:text-[#9eb8ba]">Sobre</a>
                         <a href="#social-feed" onClick={(e) => scrollToSection(e, "social-feed")} className="text-gray-700 hover:text-[#9eb8ba]">Feed</a>
+                        <a href="#testimonials" onClick={(e) => scrollToSection(e, "testimonials")} className="text-gray-700 hover:text-[#ECE537]">Avaliações</a>
                         <a href="#gallery" onClick={(e) => scrollToSection(e, "gallery")} className="text-gray-600 hover:text-[#9eb8ba] transition-colors">Galeria</a>
                         <a href="#faq" onClick={(e) => scrollToSection(e, "faq")} className="text-gray-700 hover:text-[#9eb8ba]">Dúvidas</a>
                         <a href="#contact" onClick={(e) => scrollToSection(e, "contact")} className="text-gray-700 hover:text-[#9eb8ba]">Contato</a>
